@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+.header-area {
+}
+.header-area h1{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.box {
+    
+    border: 1px solid #434343;
+
+}
+.box img {
+    width: 100%;
+    margin: 0 auto;
+}
+.box h3 {
+    margin: 10px
+}
+.box p{
+    margin: 15px 0;
+}
+
+.box button{
+    width: 100%;
+    background-color: #015196;
+
+}
+
+.box2 button{
+    width: 100%;
+    background-color: #015196;
+
+}
+
+
+
+.box button:hover{
+    background-color: #7792a9;
+}
+
+.box2 button:hover{
+    background-color: #7792a9;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind Css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <title>Build A Football Team</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Header Area Start -->
+  <header class="header-area text-white h-[480px] bg-black container mx-auto flex flex-col justify-center items-center">
+  
+    <h1 class="text-5xl font-semibold text-[#FF5E19] mb-[30px]">Select Your Best Five</h1>
+      <p class="w-[40%] text-center ">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+        officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+  
+  </header>
+
+
+  <!-- Main Area Start -->
+
+  <main class="container mx-auto">
+    <section class="bg-black grid grid-cols-5 gap-5">
+
+      <!-- Left Area  -->
+
+      <div class="col-span-4 grid grid-cols-3 gap-5" id="player">
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px] mx-auto" src="Images/messi.jpg" alt="Messi">
+          <h3 class="text-xl font-semibold">Lionel Messi</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button id="btn-1" class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/kaka.jpg" alt="Kaka">
+          <h3 class="text-xl font-semibold">Kaka</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/machando.jpg" alt="machando">
+          <h3 class="text-xl font-semibold">Machando</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/mbapee.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Mbapee</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/neymar.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Neymar</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/ramos.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Ramos</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/Peter.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Peter</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/ronaldo.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Ronaldo</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/machando.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Machando</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/messi.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Lionel Messi</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/ramos.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Ramos</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+        <div class="text-white box-shadow box text-center">
+          <img class="w-[264px] h-[220px]" src="Images/mbapee.jpg" alt="mbapee">
+          <h3 class="text-xl font-semibold">Mbapee</h3>
+          <p class="text-sm text-[#B3B3B3]">130 Goals . 136 Assist</p>
+          <button class="bg-[#A2A9AF] w-[200px] h-[40px]">Select</button>
+        </div>
+
+      </div>
+      <!-- Left Area Ends  -->
+
+      <!-- Right Area Starts -->
+
+      <div class="col-span-1">
+        <div class="text-white box2 text-center h-[400px] mb-[20px]">
+          <h2 id="heading" class="text-2xl font-semibold">Selected</h2>
+          <div id="right">
+
+          </div>
+        </div>
+
+
+        <div class="text-white box2 text-center h-[400px]">
+          <h2 class="text-2xl font-semibold mb-[20px]">Budget</h2>
+
+          <span class="flex items-center mb-[15px]">
+            <label for="per-player" class="text-[#AFAFAF] w-[40%]">Per Player</label>
+            <input class="bg-black border border-solid border-white w-[50%] py-2 text-center ml-[15px]" type="text"
+              id="per-player" placeholder="Per Player">
+          </span>
+
+
+          <button class="h-[30px] text-white text-sm mb-[15px]" id="calculate">Calculate</button>
+
+          <span class="flex items-center">Player Expenses $ <h1 id="player-expenses"></h1></span>
+
+          <span class="flex items-center mt-[15px]">
+            <label for="manager" class="text-[#AFAFAF] w-[40%]">Manager</label>
+            <input class="bg-black border border-solid border-white w-[50%] py-2  text-center ml-[15px]" type="text"
+              id="manager" placeholder="Manager">
+          </span>
+
+          <br>
+          <span class="flex items-center mb-[15px]">
+            <label for="coach" class="text-[#AFAFAF] w-[40%]">Coach</label>
+            <input class="bg-black border border-solid border-white w-[50%] py-2  text-center ml-[15px]" type="text"
+              id="coach" placeholder="Coach">
+          </span>
+
+          <button class="h-[30px] text-white text-sm mb-[15px]" id="subtotal">Calculate Total</button>
+          <span class="flex items-center justify-center">Total $ <h1 id="total"></h1></span>
+
+        </div>
+      </div>
+
+      <!-- Right Area Ends -->
+
+    </section>
+  </main>
+
+  <hr>
+
+  <!-- Footer Area  -->
+
+  <footer class="bg-black h-[100px] flex items-center justify-center">
+    <p class="text-white text-sm text-center">Copyright &copy 2023 All Rights are reserved</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
